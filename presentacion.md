@@ -73,3 +73,11 @@ $$ P[a \leq X \leq b] = \int_{a}^{b}f(x)dx $$
 ## Un ejemplo
 
 ![](img/kde_example.svg)
+
+## 
+
+* Complejidad $O(n^2)$
+* Extremos "poco" relevantes
+
+Solución [Tree-Independent Dual-Tree Algorithms](https://arxiv.org/abs/1304.4327)
+![](https://media.giphy.com/media/k9yS4LbpiVmtG/giphy.gif)
