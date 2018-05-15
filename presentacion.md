@@ -16,9 +16,21 @@ theme: white
 
 ![](https://media.giphy.com/media/BdrSy2gqURFEk/giphy.gif)
 
+<aside class="notes">
+- 2007 Georgia Tech FASTLab arboles
+- Cajas con algoritmos
+- Filosofia últimos algoritmos + velocidad.
+</aside>
+
 ## ¡Rápido! Pero... C++
 
 ![](https://media.giphy.com/media/V5mdOjITZTDzO/giphy.gif)
+
+<aside class="notes">
+- No herencia
+- Templates polimorfismo estático
+- Llamar desde C++
+</aside>
 
 ## [Armadillo](http://arma.sourceforge.net/)
 
@@ -26,7 +38,7 @@ theme: white
 * Paralelización con [OpenMP](http://www.openmp.org/)
 * [Apache License 2.0](https://opensource.org/licenses/Apache-2.0)
 
-## 
+***
 
 ![](img/armadillo.jpg)
 
@@ -74,7 +86,7 @@ $$ P[a \leq X \leq b] = \int_{a}^{b}f(x)dx $$
 
 ![](img/kde_example.svg)
 
-## 
+***
 
 * Complejidad $O(n^2)$
 * Extremos "poco" relevantes
