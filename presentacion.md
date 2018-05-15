@@ -38,6 +38,10 @@ theme: white
 * Paralelización con [OpenMP](http://www.openmp.org/)
 * [Apache License 2.0](https://opensource.org/licenses/Apache-2.0)
 
+<aside class="notes">
+
+</aside>
+
 ***
 
 ![](img/armadillo.jpg)
@@ -85,6 +89,10 @@ $$ P[a \leq X \leq b] = \int_{a}^{b}f(x)dx $$
 ## Un ejemplo
 
 ![](img/kde_example.svg)
+
+***
+
+![](img/kde_3d_example.svg)
 
 ***
 
