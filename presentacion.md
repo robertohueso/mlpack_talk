@@ -7,7 +7,7 @@ theme: white
 
 # ¿Qué es mlpack?
 
-## 
+*** 
 
 * Machine learning swiss army knife
 * Análogo a [scikit-learn](http://scikit-learn.org)
@@ -22,7 +22,11 @@ theme: white
 - Filosofia últimos algoritmos + velocidad.
 </aside>
 
-## ¡Rápido! Pero... C++
+## [$$E=m(mlpack)^2$$](http://www.mlpack.org/benchmarks.html)
+
+![](https://media.giphy.com/media/26uf9QPzzlKPvQG5O/giphy.gif)
+
+## ¡Rápido! Pero... C++ (11)
 
 ![](https://media.giphy.com/media/V5mdOjITZTDzO/giphy.gif)
 
