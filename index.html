@@ -136,6 +136,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="https://opensource.org/licenses/Apache-2.0">Apache License 2.0</a></li>
 </ul>
 <aside class="notes">
+<ul>
+<li>GPU con NVBLAS</li>
+<li>Trabajando en OpenCL (Bandicoot)</li>
+</ul>
 </aside>
 </section><section class="slide level2">
 
@@ -150,10 +154,21 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <a class="sourceLine" id="cb1-5" data-line-number="5"><span class="bu">input</span> <span class="op">=</span> pd.read_csv(<span class="st">&#39;iris.csv&#39;</span>)</a>
 <a class="sourceLine" id="cb1-6" data-line-number="6">output <span class="op">=</span> knn(k<span class="op">=</span><span class="dv">5</span>, reference<span class="op">=</span><span class="bu">input</span>)</a>
 <a class="sourceLine" id="cb1-7" data-line-number="7">neighbors <span class="op">=</span> output[<span class="st">&#39;neighbors&#39;</span>]</a></code></pre></div>
+<aside class="notes">
+<ul>
+<li>Pandas y Numpy</li>
+<li>También R, Java (NO) y Go</li>
+</ul>
+</aside>
 </section><section id="in-the-beginning-was-the-command-line" class="slide level2">
 <h2>In the Beginning… Was the Command Line</h2>
 <pre class="shell"><code>mlpack_knn -q query_dataset.csv -r reference_dataset.csv -k 5</code></pre>
 <p><img data-src="https://media.giphy.com/media/kEKcOWl8RMLde/giphy.gif" /></p>
+<aside class="notes">
+<ul>
+<li>Pipes (?)</li>
+</ul>
+</aside>
 </section></section>
 <section><section id="y-qué-has-hecho-tu" class="title-slide slide level1"><h1>¿Y qué has hecho tu?</h1></section><section id="función-de-densidad" class="slide level2">
 <h2>Función de densidad</h2>
@@ -164,6 +179,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section><section id="funciones-kernel" class="slide level2">
 <h2>Funciones Kernel</h2>
 <p><img data-src="img/kernels.svg" /></p>
+<aside class="notes">
+<ul>
+<li>Dos objetos se parecen</li>
+<li>Grande cuando se parecen, peque cuando no</li>
+</ul>
+</aside>
 </section><section id="kernel-density-estimation" class="slide level2">
 <h2><a href="https://en.wikipedia.org/wiki/Kernel_density_estimation">Kernel Density Estimation</a></h2>
 <blockquote>
@@ -182,6 +203,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>Extremos “poco” relevantes</li>
 </ul>
 <p>Solución <a href="https://arxiv.org/abs/1304.4327">Tree-Independent Dual-Tree Algorithms</a> <img data-src="https://media.giphy.com/media/k9yS4LbpiVmtG/giphy.gif" /></p>
+<aside class="notes">
+<ul>
+<li>Árboles para particionar el espacio</li>
+<li>KD-Tree Cover-Tree…</li>
+<li>2 Árboles a la vez</li>
+</ul>
+</aside>
 </section></section>
     </div>
   </div>

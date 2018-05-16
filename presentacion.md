@@ -39,7 +39,8 @@ theme: white
 * [Apache License 2.0](https://opensource.org/licenses/Apache-2.0)
 
 <aside class="notes">
-
+- GPU con NVBLAS
+- Trabajando en OpenCL (Bandicoot)
 </aside>
 
 ***
@@ -59,12 +60,21 @@ output = knn(k=5, reference=input)
 neighbors = output['neighbors']
 ```
 
+<aside class="notes">
+- Pandas y Numpy
+- También R, Java (NO) y Go
+</aside>
+
 ## In the Beginning... Was the Command Line
 
 ```shell
 mlpack_knn -q query_dataset.csv -r reference_dataset.csv -k 5
 ```
 ![](https://media.giphy.com/media/kEKcOWl8RMLde/giphy.gif)
+
+<aside class="notes">
+- Pipes (?)
+</aside>
 
 # ¿Y qué has hecho tu?
 
@@ -81,6 +91,11 @@ $$ P[a \leq X \leq b] = \int_{a}^{b}f(x)dx $$
 ## Funciones Kernel
 
 ![](img/kernels.svg)
+
+<aside class="notes">
+- Dos objetos se parecen
+- Grande cuando se parecen, peque cuando no
+</aside>
 
 ## [Kernel Density Estimation](https://en.wikipedia.org/wiki/Kernel_density_estimation)
 
@@ -101,3 +116,9 @@ $$ P[a \leq X \leq b] = \int_{a}^{b}f(x)dx $$
 
 Solución [Tree-Independent Dual-Tree Algorithms](https://arxiv.org/abs/1304.4327)
 ![](https://media.giphy.com/media/k9yS4LbpiVmtG/giphy.gif)
+
+<aside class="notes">
+- Árboles para particionar el espacio
+- KD-Tree Cover-Tree...
+- 2 Árboles a la vez
+</aside>
