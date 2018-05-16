@@ -5,6 +5,19 @@ lang: es
 theme: white
 ---
 
+Roberto Hueso
+
+* <span style="text-transform:lowercase"><a href="https://github.com/robertohueso">https://github.com/robertohueso</a></span>
+* <span style="text-transform:lowercase"><a href="mailto:robertohueso96@gmail.com">robertohueso96@gmail.com</a></span>
+
+<aside class="notes">
+- Nombre
+- Informática
+- Barbaridades are comming
+- Github
+- Mucho rato aburrido, preguntad.
+</aside>
+
 # ¿Qué es mlpack?
 
 *** 
