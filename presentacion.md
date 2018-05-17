@@ -33,6 +33,7 @@ Roberto Hueso
 - 2007 Georgia Tech FASTLab arboles
 - Cajas con algoritmos
 - Filosofia últimos algoritmos + velocidad.
+- Orientada a investigadores.
 </aside>
 
 ## [$$E=m(mlpack)^2$$](http://www.mlpack.org/benchmarks.html)
@@ -153,9 +154,4 @@ Solución [Tree-Independent Dual-Tree Algorithms](https://arxiv.org/abs/1304.432
 - 2 Árboles a la vez
 </aside>
 
-# Conclusión
-
-***
-
-<blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">la cencia no se ace sola ahi que acerla</p>&mdash; cientefico (@cientefico) <a href="https://twitter.com/cientefico/status/849973349748965376?ref_src=twsrc%5Etfw">6 de abril de 2017</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+# Conclusión: mlpack mola!
