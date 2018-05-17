@@ -93,6 +93,19 @@ mlpack_knn -q query_dataset.csv -r reference_dataset.csv -k 5
 - Pipes (?)
 </aside>
 
+## ¿Cómo empiezo a usarlo?
+
+* Empaquetado en Debian, Ubuntu, Fedora y Arch Linux
+* Docker
+* Compilarlo
+
+## La comunidad
+
+* GitHub
+* IRC
+* Lista de correo
+* Contribuciones de todo el mundo (Incluso Corea del Norte)
+
 # ¿Y qué has hecho tu?
 
 ## Función de densidad
@@ -139,3 +152,10 @@ Solución [Tree-Independent Dual-Tree Algorithms](https://arxiv.org/abs/1304.432
 - KD-Tree Cover-Tree...
 - 2 Árboles a la vez
 </aside>
+
+# Conclusión
+
+***
+
+<blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">la cencia no se ace sola ahi que acerla</p>&mdash; cientefico (@cientefico) <a href="https://twitter.com/cientefico/status/849973349748965376?ref_src=twsrc%5Etfw">6 de abril de 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
