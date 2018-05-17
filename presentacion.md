@@ -132,6 +132,8 @@ $$ P[a \leq X \leq b] = \int_{a}^{b}f(x)dx $$
 
 > In probability and statistics, density estimation is the construction of an estimate, based on observed data, of an unobservable underlying probability density function. - Wikipedia
 
+$$ \hat{f_h}(x) = \frac{1}{n} \sum_{i=1}^{n} K_h(x-x_i) $$
+
 ## Un ejemplo
 
 ![](img/kde_example.svg)
