@@ -92,6 +92,7 @@ mlpack_knn -q query_dataset.csv -r reference_dataset.csv -k 5
 
 <aside class="notes">
 - Pipes (?)
+- Pepinos
 </aside>
 
 ## ¿Cómo empiezo a usarlo?
