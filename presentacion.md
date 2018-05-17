@@ -1,6 +1,6 @@
 ---
 title: mlpack <br><img style="background:none; border:none; box-shadow:none;" src="img/mlpack-logo.svg" height=230 alt="mlpack:a fast, flexible machine learning library">
-author: <span style="text-transform:lowercase"><a href="https://github.com/robertohueso">https://github.com/robertohueso</a></span>
+author: <span style="text-transform:lowercase"><a href="https://github.com/mlpack/mlpack">https://github.com/mlpack/mlpack</a></span>
 lang: es
 theme: white
 ---
