@@ -13,7 +13,7 @@ Roberto Hueso
 <aside class="notes">
 - Nombre
 - Informática
-- Barbaridades are comming
+- Barbaridades
 - Github
 - Mucho rato aburrido, preguntad.
 </aside>
